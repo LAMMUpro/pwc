@@ -1,0 +1,18 @@
+{
+  "name": "@wcd/lammupro.preact-lszp8s3a-fork-lszpbciq",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "dependencies": {
+    "preact-custom-element": "^4",
+    "htm": "^3"
+  },
+  "devDependencies": {
+    "lit-html": "^2"
+  },
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve IWvqjGZiydJaqSYUwBe4 --open"
+  }
+}
