@@ -18,11 +18,10 @@ class MyCounter extends Component {
     return html`
       <style>
         * {
-          font-size: 200%;
+          font-size: 30px;
         }
 
         span {
-          width: 4rem;
           display: inline-block;
           text-align: center;
         }
@@ -36,13 +35,18 @@ class MyCounter extends Component {
           color: white;
         }
       </style>
-      <button onClick=${this.dec}>
-        -
-      </button>
-      <span>${state.count}</span>
-      <button onClick=${this.inc}>
-        +
-      </button>
+      <div style="display: flex; flex-direction: column;">
+        <span>作者: lammu</span>
+        <div>
+          <button onClick=${this.dec}>
+            -
+          </button>
+          <span>${state.count}</span>
+          <button onClick=${this.inc}>
+            +
+          </button>
+        </div>
+      </div>
     `;
   }
 }
